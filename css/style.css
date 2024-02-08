@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+.main_block {
+  min-height: 100vh;
+  background: linear-gradient(#b068e9, #6463e7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accordion_container {
+  width: 920px;
+  border-radius: 20px;
+  background-color: #fff;
+  min-height: 509px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.img_one,
+.img_two {
+  position: absolute;
+}
+.img_one {
+  top: 70px;
+  left: 0;
+}
+.img_two {
+  left: -92px;
+  top: 220px;
+}
+.faq_block {
+  padding: 65px 95px 0 0;
+  width: 350px;
+}
+
+.accordion_box {
+  max-height: 420px;
+  overflow-y: scroll;
+}
+.accordion_box::-webkit-scrollbar {
+  display: none;
+}
+.title {
+  font-size: 32px;
+  font-family: "Kumbh Sans bd";
+  margin-bottom: 40px;
+}
+.accordion_item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e8e8ea;
+}
+.accordion_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-family: "Kumbh Sans rg";
+  line-height: 18px;
+  color: #1e1f36;
+}
+.accordion_header:hover {
+  color: #f47b56;
+}
+.accordion_header i {
+  color: #f47b56;
+}
+.accordion_body {
+  color: #787887;
+  font-size: 12px;
+  font-family: "Kumbh Sans rg";
+  padding-bottom: 16px;
+  line-height: 18px;
+  display: none;
+}
+.active {
+  display: block;
+}
+.rotate {
+  transform: rotate(178deg);
+}
+.bold {
+  font-family: "Kumbh Sans bd";
+}
+.bold:hover {
+  color: #1e1f36 !important;
+}
+.mobile_img {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.img_path {
+  position: absolute;
+  bottom: -10px;
+  left: 10%;
+}

@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+  .main_block {
+    padding: 40px 15px;
+  }
+  .accordion_container {
+    width: 100%;
+  }
+  .faq_block {
+    width: 100%;
+    padding: 140px 50px 50px;
+  }
+  .title {
+    text-align: center;
+  }
+
+  .img_one,
+  .img_two {
+    display: none;
+  }
+  .mobile_img {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  .faq_block {
+    padding: 132px 24px 48px 24px;
+  }
+}
